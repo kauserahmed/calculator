@@ -1,9 +1,48 @@
+<!-- 
+Name: Javascript Calculator
+description: This is a basic javascript calculator_interface.
+ With this calculator_interface you can do normal operation like: +, -, *, / 
+Created by: Kauser Ahmed
+Created date: 4/30/2021
+github link: https://github.com/kauserahmed/calculator_interface
+
+ -->
+
 <!DOCTYPE html>
 <html>
-<head>
-	<title>JavaScript Calculator</title>
-</head>
-<body>
+    <head>
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="../cs/style.css" />
+  </head>
+  <body>
+    <div class="calculator_interface">
+      <input type="text" class="input_output_display" value="" disabled />
 
-</body>
+      <div class="number_keys">
+        <button type="button" class="operator" value="+">+</button>
+        <button type="button" class="operator" value="-">-</button>
+        <button type="button" class="operator" value="*">&times;</button>
+        <button type="button" class="operator" value="/">&divide;</button>
+
+        <button type="button" value="7">7</button>
+        <button type="button" value="8">8</button>
+        <button type="button" value="9">9</button>
+
+        <button type="button" value="4">4</button>
+        <button type="button" value="5">5</button>
+        <button type="button" value="6">6</button>
+
+        <button type="button" value="1">1</button>
+        <button type="button" value="2">2</button>
+        <button type="button" value="3">3</button>
+
+        <button type="button" value="0">0</button>
+        <button type="button" class="decimal" value=".">.</button>
+        <button type="button" class="removes_all" value="removes_all">C</button>
+
+        <button type="button" class="equal-sign" value="=">=</button>
+      </div>
+    </div>
+    <script src="../javascript/script.js"></script>
+  </body>
 </html>
